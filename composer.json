@@ -1,0 +1,34 @@
+{
+	"name": "pessek/pessek_calendar",
+    	"description": "Polls of dates, meetings, events... Each event has its specific needs! The Calendar application allows you to simplify the management of your event",
+    	"type": "elgg-plugin",
+	"version": "4.0",
+    	"license": "proprietary",
+	"keywords": [
+		"elgg",
+		"event",
+		"calendar"
+	],
+	"authors": [
+		{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+		}
+	],
+	"extra": {
+		"installer-name": "pessek_calendar"
+	},
+    	"require": {
+		"php": ">=7.4",
+		"composer/installers": "^1.0.8"
+	},
+	"repositories": [
+		{
+            		"type": "composer",
+            		"url": "https://asset-packagist.org"
+		}
+	],
+        "conflict": {
+                "elgg/elgg": "<4.0"
+        }
+}
